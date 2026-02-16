@@ -3,6 +3,7 @@
     <head>
       <meta charset="UTF-8">
       <title>My Website - About</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     </head>
     <body>
       <h1>Oneil Marshall</h1>
@@ -10,5 +11,6 @@
          I like to read, code, play sports and I'm currently learning how to swim.<br> I'm looking
          forward to graduating this year and then go home to visit my family. This is also my first web app.
       </p>
+      <img src="{{ url_for('static', filename='basketball.jpg') }}">
     </body>
   </html>
